@@ -1,10 +1,6 @@
 library(tidyquant)
 library(shiny)
 
-######TO DO's: add a Notes tab that documents nuances of the methodology and gives credit to packages,
-###### add in functionality to change period covered in the market performance section graphs (
-###### doesn't work with input$view, doesn't like the variable name
-
 ### The main idea behind this app came from a post on RStudio's RViews blog
 ### (found here: http://bit.ly/2l5Xze9) where sector correlations were calculated via flexdashboard
 ### BizSci also borrowed RViews work, but implemented a much more streamlined version via 'tidyquant'
