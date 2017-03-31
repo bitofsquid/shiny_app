@@ -1,7 +1,7 @@
 ---
 title: "market_monitor"
 author: "J.T. Ryker"
-date: "February 18, 2017"
+date: "March 30, 2017"
 output: html_document
 ---
 
@@ -21,10 +21,12 @@ What RViews lacked in simplicity, Business Science more than made up for, but wi
 ### Results
 The end result is the code behind this [shiny app](jtryker.shinyapps.io/market_monitor). On the 'Market Performance' tab, a user can specify a window of time to see recent stock market performance as well as volatility. A simple moving-average line is also shown with these charts to help contextualize recent events relative to the past. The 'Sector Correlations' tab contains the meat of what RViews and Business Science were focused on, except that here I have allowed a user to specify any two ETFs to compare (via a dropdown). I also built in functionality for a user to change several other relevant elements for robustness.
 
-There are almost endless possibilities for new functionality in an app like this and I look forward to adding new features in the future. For now, enjoy!
+### UPDATE - 3/30/2017
+The current version of the app makes several asthetic improvements to the look of the charts as well as adds helpful notes on methodology and sources for the data.
 
-### Notes on methodology
-Price data is obtained via Yahoo finance and returns are calculated as simple holding period returns over the period the user specifies (monthly, weekly, daily). The information presented on the Market Performance tab represents true index level performance for the S&P 500 and CBOE Volatility indices (tickers ^GSPC & ^VIX). The information presented on the Sector correlations tab represents information on SPDR sector ETFs.
+Two additional tabs were also added. The 'US Economic Data' tab presents popular measurments of the strength of the labor market, the current degree of inflation, and the growth of the economy in general. The 'US Yield Curve' tab presents the yield to maturity of the most recently issued US Treasury bonds and allows a user to choose a historical date to compare against.
+
+There remain endless possibilities for improvement to the app and I look forward to making more as time permits. Next on the docket is adding a 'Market Dashboard' tab that summarizes recent performance for stocks, bonds, commodities, and other assets. Stay tuned!
 
 
 Link to app: [jtryker.shinyapps.io/market_monitor](jtryker.shinyapps.io/market_monitor) 
