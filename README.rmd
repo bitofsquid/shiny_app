@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Equity Market Monitor
 
 ### Inspiration
-This represents my first attempt at creating a shiny app and draws inspiration from two main sources. 
+This represents an attempt at creating a shiny app and draws inspiration from two main sources. 
 
 First, RStudio's RViews blog has a series entitled "Reproducible Finance with R" that is quite excellent. Jonathan Regenstein is the primary author in the series and recently published a piece on [ETF correlations](https://www.rstudio.com/rviews/2017/01/18/reproducible-finance-with-r-sector-correlations/). Second, Business Science (a small, business/finance-oriented software development firm) picked up on the RViews post and [recreated it](http://www.business-science.io/financial-analysis/2017/02/02/Recreating-RViews-Reproducible-Finance-Post.html) using tidyquant, their own internally-developed R package. 
 
@@ -29,4 +29,4 @@ Two additional tabs were also added. The 'US Economic Data' tab presents popular
 There remain endless possibilities for improvement to the app and I look forward to making more as time permits. Next on the docket is adding a 'Market Dashboard' tab that summarizes recent performance for stocks, bonds, commodities, and other assets. Stay tuned!
 
 
-Link to app: [jtryker.shinyapps.io/market_monitor](jtryker.shinyapps.io/market_monitor) 
+Link to app (please be patient, it takes a moment to load): [jtryker.shinyapps.io/market_monitor](jtryker.shinyapps.io/market_monitor) 
