@@ -8,6 +8,7 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+{DISCLAIMER: This app is currently under redevelopment in order to add functionality and improve loading time. As a result, the equity market portions of the app are no longer functioning. This should be fixed soon. Thanks!}
 
 ## Equity Market Monitor
 
