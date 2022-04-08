@@ -1,6 +1,6 @@
 ---
 title: "market_monitor"
-author: "J.T. Ryker"
+author: "Squidbit"
 date: "March 30, 2017"
 output: html_document
 ---
@@ -19,7 +19,7 @@ First, RStudio's RViews blog has a series entitled "Reproducible Finance with R"
 What RViews lacked in simplicity, Business Science more than made up for, but without the interactivity peice so I decided to borrow from both examples and create the best of both worlds--with a few personal touches.
 
 ### Results
-The end result is the code behind this [shiny app](jtryker.shinyapps.io/market_monitor). On the 'Market Performance' tab, a user can specify a window of time to see recent stock market performance as well as volatility. A simple moving-average line is also shown with these charts to help contextualize recent events relative to the past. The 'Sector Correlations' tab contains the meat of what RViews and Business Science were focused on, except that here I have allowed a user to specify any two ETFs to compare (via a dropdown). I also built in functionality for a user to change several other relevant elements for robustness.
+The end result is the code behind this [shiny app](squidbit.shinyapps.io/market_monitor). On the 'Market Performance' tab, a user can specify a window of time to see recent stock market performance as well as volatility. A simple moving-average line is also shown with these charts to help contextualize recent events relative to the past. The 'Sector Correlations' tab contains the meat of what RViews and Business Science were focused on, except that here I have allowed a user to specify any two ETFs to compare (via a dropdown). I also built in functionality for a user to change several other relevant elements for robustness.
 
 ### UPDATE - 3/30/2017
 The current version of the app makes several asthetic improvements to the look of the charts as well as adds helpful notes on methodology and sources for the data.
@@ -29,4 +29,4 @@ Two additional tabs were also added. The 'US Economic Data' tab presents popular
 There remain endless possibilities for improvement to the app and I look forward to making more as time permits. Next on the docket is adding a 'Market Dashboard' tab that summarizes recent performance for stocks, bonds, commodities, and other assets. Stay tuned!
 
 
-Link to app (please be patient, it takes a moment to load): [jtryker.shinyapps.io/market_monitor](jtryker.shinyapps.io/market_monitor) 
+Link to app (please be patient, it takes a moment to load): [squidbit.shinyapps.io/market_monitor](squidbit.shinyapps.io/market_monitor) 
