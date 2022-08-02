@@ -28,5 +28,8 @@ Two additional tabs were also added. The 'US Economic Data' tab presents popular
 
 There remain endless possibilities for improvement to the app and I look forward to making more as time permits. Next on the docket is adding a 'Market Dashboard' tab that summarizes recent performance for stocks, bonds, commodities, and other assets. Stay tuned!
 
+### UPDATE - 8/2/2022
+The googlesheets package originally used in the first version of the app was deprecated. As a result, the replacement package, googlesheets4, had to be implemented into the app. The underlying code that gathers the data was simplified, but the app still takes a 1-2 minutes to load. 
+
 
 Link to app (please be patient, it takes a moment to load): [squidbit.shinyapps.io/market_monitor](squidbit.shinyapps.io/market_monitor) 
