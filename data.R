@@ -8,7 +8,6 @@ suppressMessages(library(googlesheets4))
 ### indices and ETFs as well as US Treasury bonds and economic indicators. A googlesheet serves
 ### as remote storage to improve loading times for users of the app.
 
-### The code for shiny app itself can be found here (LINK)
 
 
 # Obtain daily adjusted prices for sector SPDR ETFs and add to new worksheet
